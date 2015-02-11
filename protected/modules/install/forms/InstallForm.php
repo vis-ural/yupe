@@ -92,7 +92,7 @@ class InstallForm extends yupe\models\YFormModel
              * Для настройки администратора:
              **/
             ['userName, userPassword, cPassword, userEmail', 'required', 'on' => 'createUser'],
-            ['userPassword, cPassword', 'length', 'min' => 8],
+            ['userPassword, cPassword', 'length', 'min' => 6],
             ['userName', 'length', 'min' => 4],
             [
                 'cPassword',

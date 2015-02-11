@@ -163,7 +163,7 @@ return [
             'routes' => [
                 [
                     'class'  => 'CFileLogRoute',
-                    'levels' => 'error, warning, info, trace', // на продакшн лучше оставить error, warning
+                    'levels' => 'error', // на продакшн лучше оставить error, warning
                 ],
             ],
         ],
